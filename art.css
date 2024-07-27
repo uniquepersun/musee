@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1c889;
+    margin: 0;
+}
+
+.player {
+    background-color: #f1b357;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #eca53b;
+}
+
+.progress input[type="range"] {
+    width: 100%;
+}
+
+.popup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup h2 {
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+.popup button {
+    background-color: #f1da57;
+}
+
+.popup button:hover {
+    background-color: #f1c857;
+}
