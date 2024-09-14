@@ -3,7 +3,7 @@ Welcome to Musee, a web application designed to listen to songs with a nice UI!.
 
 
 ## usage
-clone the repo and deploy it!!
+clone the repo and deploy it!! OR visit [this](https://uniquepersun.github.io/musee/)
 
 ##  Features :sparkles:
 - music player with a nice UI
